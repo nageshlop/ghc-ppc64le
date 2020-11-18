@@ -1,0 +1,6 @@
+language: c
+os: linux
+dist: xenial
+compiler: ghc-7.10.3
+arch: ppc64le
+addons: {"apt":{"sources":[{"sourceline":"deb http://ppa.launchpad.net/hvr/ghc/ubuntu xenial universe","key_url":"https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x063dab2bdc0b3f9fcebc378bff3aeacef6f88286"}],"packages":["ghc","cabal-install"]}}
